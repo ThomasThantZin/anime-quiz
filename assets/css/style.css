@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Vina+Sans&display=swap');
 
 body {
-    background-image: url("../images/backgroundimg.jpg");
+    background-image: url("../images/backgroundimg.png");
 
 
     background-size: cover;
@@ -17,14 +17,14 @@ h1 {
     font-family: "Vina Sans", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    color: #fff;
+    color: #2f8cc2d3;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #e79a6a;
+    background-color: #2f8cc2d3;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
