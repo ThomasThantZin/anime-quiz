@@ -41,3 +41,62 @@ button {
     background-color: #fff;
     font-family: "Righteous",
         sans-serif;
+}
+
+.img-div {
+    text-align: center;
+}
+
+.start-btn {
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+
+
+
+button:focus {
+    outline: none;
+}
+
+#choiceResponse {
+    display: none;
+}
+
+#scoreBlock {
+    padding-top: 100px;
+    display: none;
+}
+
+#scoreMessage {
+    display: none;
+}
+
+
+
+#quiz {
+    overflow: hidden;
+    display: none;
+}
+
+.quizRestart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Media queries------------------------------*/
+
+@media(min-width:768px) {
+    .container {
+        max-height: 600px;
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    button:hover {
+        background-color: orangered;
+        border: none;
+    }
+}

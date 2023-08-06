@@ -10,14 +10,40 @@
   <body>
     <h1>Anime Knowledge Quizzes</h1>
     <div class="container">
+      <!-- Intro Phase -->
       <div id="start">
-        <button class="start-btn" onClick="#">Begin the Quiz!</button>
+        <button class="start-btn" onClick="beginQuiz()">Begin the Quiz!</button>
         <p>
           Challenge your expertise in Anime characters!<br />
           Can you identify each character correctly?<br />
           Every character portrait comes with four options for you to choose
           from.
         </p>
+      </div>
+      <!-- Start Quiz phase -->
+      <div id="quiz">
+        <h2 id="quizQuestion"></h2>
+        <div class="img-div" id="quizImg"></div>
+        <div id="choices">
+          <button id="choiceA" onclick="check('A')"></button>
+          <button id="choiceB" onclick="check('B')"></button>
+          <button id="choiceC" onclick="check('C')"></button>
+          <button id="choiceD" onclick="check('D')"></button>
+        </div>
+        <div id="choiceResponse"></div>
+      </div>
+      <!-- Score Result and restart button phase -->
+      <div id="scoreBlock"></div>
+      <div id="scoreMessage"></div>
+      <div>
+        <button
+          id="quizAgain"
+          class="quizRestart"
+          style="display: none"
+          onClick="restartQuiz()"
+        >
+          Try Again!
+        </button>
       </div>
     </div>
 
