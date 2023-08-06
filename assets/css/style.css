@@ -17,7 +17,8 @@ h1 {
     font-family: "Vina Sans", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    color: #2f8cc2d3;
+    color: #ffff;
+    text-shadow: -3px 3px 0 #000;
 }
 
 .container {
