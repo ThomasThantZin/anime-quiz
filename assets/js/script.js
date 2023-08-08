@@ -134,6 +134,45 @@ function getRandomQuestions(totalQuestions) {
     return randomQuestions;
 }
 
+// function to check if answer is correct or wrong!
+function check(answer) {
+    if (questionIndex < questions.length - 1) {
+        if (answer == questions[questionIndex].correctAnswer) {
+            score++;
+            questionIndex++;
+            choices.style.display = "none";
+            choiceResponse.innerHTML = "<p>Correct!</p>";
+            choiceResponse.style.display = "block";
+            alert("Correct! You earned a point!");
+            setTimeout(getQuestion, 2000);
+        } else {
+            questionIndex++;
+            choices.style.display = "none";
+            choiceResponse.innerHTML = "<p>Incorrect!</p>";
+            choiceResponse.style.display = "block";
+            alert("Beep! Wrong!");
+            setTimeout(getQuestion, 2000);
+        }
+    } else {
+        if (answer == questions[questionIndex].correctAnswer) {
+            score++;
+            choices.style.display = "none";
+            choiceResponse.innerHTML = "<p>Correct!</p>";
+            choiceResponse.style.display = "block";
+            alert("Correct! You earned a point!");
+            setTimeout(showScore, 2000);
+        } else {
+            choices.style.display = "none";
+            choiceResponse.innerHTML = "<p>Incorrect!</p>";
+            choiceResponse.style.display = "block";
+            alert("Beep! Wrong!");
+            setTimeout(showScore, 2000);
+        }
+    }
+}
+
+
+
 
 
 
