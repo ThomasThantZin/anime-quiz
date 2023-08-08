@@ -96,7 +96,16 @@ let questions = [{
     choiceC: "Seitokai Yakuindomo",
     choiceD: "Classroom of the Elite",
     correctAnswer: "A"
-},];
+}, {
+    question: "Which anime is this charater from?",
+    imgSrc: "assets/images/ryuk.png",
+    choiceA: "Ajin: Demi-Human",
+    choiceB: "Death Note",
+    choiceC: "Another",
+    choiceD: "Yu-Gi-Oh!",
+    correctAnswer: "B"
+},
+];
 
 
 let questionIndex = 0;
