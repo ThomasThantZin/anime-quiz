@@ -1,18 +1,18 @@
 //declare all variables
-var start = document.getElementById("start");
-var quiz = document.getElementById("quiz");
-var quizQuestion = document.getElementById("quizQuestion");
-var quizImg = document.getElementById("quizImg");
-var optionA = document.getElementById("choiceA");
-var optionB = document.getElementById("choiceB");
-var optionC = document.getElementById("choiceC");
-var optionD = document.getElementById("choiceD");
-var scoreBlock = document.getElementById("scoreBlock");
-var scoreMessage = document.getElementById("scoreMessage");
-var quizAgain = document.getElementById("quizAgain");
-var choices = document.getElementById("choices");
-var choiceResponse = document.getElementById("choiceResponse");
-var score = 0;
+const start = document.getElementById("start");
+const quiz = document.getElementById("quiz");
+const quizQuestion = document.getElementById("quizQuestion");
+const quizImg = document.getElementById("quizImg");
+const optionA = document.getElementById("choiceA");
+const optionB = document.getElementById("choiceB");
+const optionC = document.getElementById("choiceC");
+const optionD = document.getElementById("choiceD");
+const scoreBlock = document.getElementById("scoreBlock");
+const scoreMessage = document.getElementById("scoreMessage");
+const quizAgain = document.getElementById("quizAgain");
+const choices = document.getElementById("choices");
+const choiceResponse = document.getElementById("choiceResponse");
+let score = 0;
 
 //questions function so our getQuestion function later can get the right value from array
 
@@ -99,7 +99,7 @@ let questions = [{
 },];
 
 
-var questionIndex = 0;
+let questionIndex = 0;
 
 // start quiz
 function beginQuiz() {
