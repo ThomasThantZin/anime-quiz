@@ -171,6 +171,15 @@ function check(answer) {
     }
 }
 
+// show score function
+function showScore() {
+    quiz.style.display = "none";
+    scoreBlock.style.display = "block";
+    scoreBlock.innerHTML = "<p> You scored " + score + " out of 5!</p>";
+    scoreMessage.style.display = "block";
+    quizAgain.style.display = "block";
+}
+
 
 
 
