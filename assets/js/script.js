@@ -180,6 +180,19 @@ function showScore() {
     quizAgain.style.display = "block";
 }
 
+// To restart Quiz game 
+
+function restartQuiz() {
+    start.style.display = "block";
+    scoreBlock.style.display = "none";
+    scoreMessage.style.display = "none";
+    quizAgain.style.display = "none";
+    score = 0;
+    questionIndex = 0;
+}
+
+document.querySelector(".start-btn").addEventListener("click", beginQuiz);
+
 
 
 
