@@ -99,3 +99,41 @@ let questions = [{
 },];
 
 
+var questionIndex = 0;
+
+// start quiz
+function beginQuiz() {
+    start.style.display = "none";
+    const totalQuestions = 5;
+    const randomQuestions = getRandomQuestions(totalQuestions);
+    questions = randomQuestions;
+    questionIndex = 0;
+    getQuestion();
+    quiz.style.display = "block";
+}
+
+// getQuestion function
+function getQuestion() {
+    choiceResponse.style.display = "none";
+    let q = questions[questionIndex];
+    quizQuestion.innerHTML = "<p>Question " + (questionIndex + 1) + ": " + q.question + "</p>";
+    quizImg.innerHTML = "<img src=" + q.imgSrc + ">";
+    optionA.innerHTML = q.choiceA;
+    optionB.innerHTML = q.choiceB;
+    optionC.innerHTML = q.choiceC;
+    optionD.innerHTML = q.choiceD;
+    choices.style.display = "block";
+}
+// Function to get 5 random questions
+function getRandomQuestions(totalQuestions) {
+    const randomQuestions = [];
+    const shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+    for (let i = 0; i < totalQuestions; i++) {
+        randomQuestions.push(shuffledQuestions[i]);
+    }
+    return randomQuestions;
+}
+
+
+
+
