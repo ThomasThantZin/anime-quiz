@@ -22,47 +22,25 @@ For fonts Righteous and Vina Sans fonts are used
 
 ### Existing Features
 
-- **Navigation Bar**
+ **Game Intro**
+- Wrote in clear design, make player to understand how's the game works and start button to start the game.
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Cusines and Contact page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+![Intro](media/intro.png)
 
-![Navigation Bar](media/nav.png)
+ **When The Game Start**
+- Starting the game will give player Question with image and 4 multiple choice button.
+![Start](media/start.png)
 
-- **The landing page image**
+**Correct or Wrong Answers**
+-When players choose correct answer button, they will get alert that they are correct or When players choose incorrect answer button, they will get alert that they are incorrect.
+![CorrectAlert](media/correct-alert.png)
+![CorrectAlert](media/correct.png)
+![InCorrectAlert](media/incorrect-alert.png)
+![InCorrectAlert](media/correct.png)
 
-  - The landing includes a photograph with text overlay to allow the user to discover about Myanmar traditional food.
-  - This section introduces the user to variety of Myanmar foods with an eye catching animation to grab their attention.
-
-![Hero Image](media/hero-image.png)
-
-- **About food section**
-
-  - This section will allow the user to know about Myanmar foods.
-  - Showing the image of Myanmar food on right and explaining about Myanmar food on left.
-
-![About Food](media/about-food.png)
-
-- **Footer**
-
-  - The footer section houses the social media links that are designed to open in a new browser. The goal of these is link the site with popular traffic drivers and connect rhough social medias.
-
-![Footer](media/footer.png)
-
-- **Popular Cuisines**
-
-      - In page is to share the users, what are the popular Myanmar foods and how it's made.
-      - The design is simply made to be clear in user eyes.
-
-  ![Popular Cuisines](media/popularcuisine.png)
-
-- **Contact**
-
-      - This page is to allow users to get in touch if they want to make queries or add more content to this web-site.
-      - The user will be asked to submit their full name and email address and will be able to write what they want to talk to us.
-
-  ![Contact Us](media/contact.png)
-
+**Result Score and Restart**
+-Finishing the game will give the players their scores and restart button.
+![Result](media/result.png)
 ### Feature to implement
 
 - I really would like to add background music whatever you start the new question .
@@ -73,3 +51,57 @@ For fonts Righteous and Vina Sans fonts are used
 
 All pages were tested on Google Chrome, Safari and Firefox
 
+### Validator Testing
+
+- HTML
+
+  - No errors were returned when passing through the official 
+  ![W3Cvalidator](media/html-validator.png)
+
+- CSS
+
+  - No errors were found when passing through the official
+ ![CssValidator](media/css-validator.png)
+
+- JS
+
+  - No errors were found when passing through the [JS checker](https://jshint.com/)
+  
+### Performance
+
+- **Performance checked from google light house.** 
+-  Performance
+  ![Performance](media/lighthouse.png)
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: [Taste Of Myanmar](https://thomasthantzin.github.io/anime-quiz/)
+
+## Credit
+
+### Code
+
+- Took simple from Code Explained JS tutorial.
+- Took simple from Love Math project.
+- Took readme.md simple  from [Code Institute read me template](https://github.com/Code-Institute-Solutions/readme-template)
+
+### Media
+
+- All the images are from [Ncoll Central](https://art.ncoll-central.com/)
+
+#### This Website is only for Educational purpose
+
+## Acknowledgements
+
+I would like to take the opportunity to thank:
+
+- To God, who is with me the whole time when I writing the code for this webpage.
+- The lovely and helpful people on the Code Institute Slack page for support
+- My lovely friends from Myanmar, who are helping me.
+- To Code Institute Community for teaching me how to write these CODES.
+  
