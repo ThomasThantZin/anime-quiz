@@ -32,14 +32,14 @@ For fonts Righteous and Vina Sans fonts are used
 ![Start](media/start.png)
 
 **Correct or Wrong Answers**
--When players choose correct answer button, they will get alert that they are correct or When players choose incorrect answer button, they will get alert that they are incorrect.
+- When players choose correct answer button, they will get alert that they are correct or When players choose incorrect answer button, they will get alert that they are incorrect.
 ![CorrectAlert](media/correct-alert.png)
 ![CorrectAlert](media/correct.png)
 ![InCorrectAlert](media/incorrect-alert.png)
 ![InCorrectAlert](media/correct.png)
 
 **Result Score and Restart**
--Finishing the game will give the players their scores and restart button.
+- Finishing the game will give the players their scores and restart button.
 ![Result](media/result.png)
 ### Feature to implement
 
