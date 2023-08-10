@@ -34,7 +34,7 @@ For fonts Righteous and Vina Sans fonts are used
 ![CorrectAlert](media/correct-alert.png)
 ![CorrectAlert](media/correct.png)
 ![InCorrectAlert](media/incorrect-alert.png)
-![InCorrectAlert](media/correct.png)
+![InCorrectAlert](media/incorrect.png)
 
 **Result Score and Restart**
 - Finishing the game will give the players their scores and restart button.
