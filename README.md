@@ -4,8 +4,6 @@
 
 You can visit the website here: [Anime Quiz Game](https://thomasthantzin.github.io/anime-quiz/)
 
-![multiple devices displaying website](media/responsive.png)
-
 ## Authors
 
 - [Thant Zin Oo](https://github.com/ThomasThantZin)

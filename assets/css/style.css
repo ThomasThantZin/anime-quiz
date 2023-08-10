@@ -2,14 +2,12 @@
 
 body {
     background-image: url("../images/backgroundimg.png");
-
-
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     font-family: "Righteous", sans-serif;
     color: #000;
-    min-height: 707px;
+
 }
 
 h1 {
